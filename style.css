@@ -40,7 +40,11 @@
     height: 100vh;
     background-image: url("https://drive.google.com/thumbnail?id=1nEutzDG8bc8ZgtqHpEeaRSAa1tH2N3gu");
     background-color: var(--Red);
-  
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-blend-mode: multiply;
     font-family: var(--main-font);
   
     display: flex;
